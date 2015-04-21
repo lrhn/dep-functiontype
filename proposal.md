@@ -63,7 +63,8 @@ Pure runtime implementations like the VM are unaffected by the change.
 
 TC52, the Ecma technical committee working on evolving the open [Dart standard][], operates under a royalty-free patent policy, [RFPP][] (PDF). This means if the proposal graduates to being sent to TC52, you will have to sign the Ecma TC52 [external contributer form]() and submit it to Ecma.
 
+[Analyzer Issue]: http://dartbug.com/21938
 [DEP Proposal Location]: https://github.com/lrhn/dep-functiontype/
-[dart standard]: http://www.ecma-international.org/publications/standards/Ecma-408.htm
+[Dart standard]: http://www.ecma-international.org/publications/standards/Ecma-408.htm
 [rfpp]: http://www.ecma-international.org/memento/TC52%20policy/Ecma%20Experimental%20TC52%20Royalty-Free%20Patent%20Policy.pdf
 [form]: http://www.ecma-international.org/memento/TC52%20policy/Contribution%20form%20to%20TC52%20Royalty%20Free%20Task%20Group%20as%20a%20non-member.pdf
