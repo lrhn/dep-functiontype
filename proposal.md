@@ -23,7 +23,7 @@ The [Dart standard][] currently requires warning for code that calls expression 
 
 Implementations of Dart have not produced this warning ([Analyzer Issue]), and existing code has assumed that code as the one above is perfectly fine.
 
-In practice, the Dart type system makes it somewhat cumbersome to specify a function type for fields or return types, and code has been written using `Function` indended just as a sligtly more precise alternative to `dynamic`. This includes code in the Dart platform libraries.
+In practice, the Dart type system makes it somewhat cumbersome to specify a function type for fields or return types, and code has been written using `Function` intended just as a sligtly more precise alternative to `dynamic`. This includes code in the Dart platform libraries.
 
 Changing the analyzer behavior is problematic because it will cause existing code to give new warnings. That's not an argument against fixing the behavior, but it shows the scale of the mis-use. If a significant number of programmers is using a bug as a feature, it suggest that there is a need for that feature. Changing the specification to match the implementations would give the user the feature that they are already using, only with a full specification behind it.
 
